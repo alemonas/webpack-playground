@@ -6,7 +6,9 @@
   "author": "Alejandro Monasterios <alemonas@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "dev": "npm run webpack -- --mode development",
+    "prod": "npm run webpack -- --mode production"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.46",
