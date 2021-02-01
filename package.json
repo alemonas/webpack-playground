@@ -9,6 +9,7 @@
     "webpack": "webpack",
     "dev": "npm run webpack -- --mode development",
     "prod": "npm run webpack -- --mode production",
+    "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
     "prod:debug": "npm run debug -- --mode production",
     "dev:debug": "npm run debug -- --mode development",
     "debugthis": "node --inspect --inspect-brk ./src/index.js"
