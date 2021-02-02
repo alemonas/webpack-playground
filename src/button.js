@@ -1,3 +1,3 @@
-module.exports = buttonName => {
+module.exports = (buttonName) => {
   return `Button: ${buttonName}`;
 };
