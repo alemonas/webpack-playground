@@ -1,5 +1,7 @@
-module.exports = {
-  output: {
-    filename: 'bundle.js',
-  },
+module.exports = () => {
+  return {
+    output: {
+      filename: 'bundle.js',
+    },
+  };
 };

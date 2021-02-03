@@ -19,3 +19,5 @@
 ## PART 2 - Config Webpack
 
 - 2.1. Create a config file and change the output
+- 2.2. Change config to return a function instead of an object
+- 2.2. Passing variables to webpack config
