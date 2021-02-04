@@ -7,4 +7,6 @@ const button = makeButton('submit');
 button.style = makeColorStyle('blue');
 document.body.appendChild(button);
 
+document.body.appendChild(top);
+
 console.log(nav(), top, bottom, makeColorStyle('cyan'));
