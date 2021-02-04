@@ -3,4 +3,7 @@ import { top, bottom } from './footer';
 import makeButton from './button';
 import { makeColorStyle } from './button-style';
 
-console.log(nav(), top, bottom, makeButton('create'), makeColorStyle('cyan'));
+const button = makeButton('submit');
+document.body.appendChild(button);
+
+console.log(nav(), top, bottom, makeColorStyle('cyan'));
