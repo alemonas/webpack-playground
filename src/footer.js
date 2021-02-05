@@ -1,3 +1,4 @@
+import './footer.css';
 const top = document.createElement('div');
 const bottom = document.createElement('div');
 
