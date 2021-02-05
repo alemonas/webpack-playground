@@ -20,4 +20,23 @@
 
 - 2.1. Create a config file and change the output
 - 2.2. Change config to return a function instead of an object
-- 2.2. Passing variables to webpack config
+- 2.3. Passing variables to webpack config
+- 2.4. Add webpack plugins
+  - Install html-webpack-plugin
+  - user plugin in config
+- 2.5. Seeting up a local server
+  - install webpack-dev-server (web server based on express)
+    - instead of creating a bundle in the dist folder, generates a bundle in memory and it serves that information up to Express which then does a web socker connection to send updates
+  - add script for webpack-dev-server
+  - Improve button module (with html elements)
+  - Improve footer module (with html elements)
+- 2.6. Splitting environments config files
+  - add modeconfig to webpack config
+  - add default values to webpack params
+  - install webpack-merge to use default config and merge with the other individual configs (prod, dev)
+  - create build-utils with webpack.dev... webpack.prod.. config files
+  - change output file on production to test
+    - [chunkhash.js] // string interpolate
+- 2.7. Create a rule and loader to use css styles
+  - create a ccs file
+  - add it in webpack dev config
